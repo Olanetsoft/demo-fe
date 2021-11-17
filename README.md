@@ -1,4 +1,4 @@
-### DEMO FE - INSTALLATION
+### DEMO FE - Installation
 
 Step 1: Clone the repository.
 
@@ -10,31 +10,16 @@ Step 1: `npm install`.
 
 Step 2: Create`.env.local` file using the command `touch .env.local` in the root folder.
 
-Step 3: Add `API_PORT=3000` inside the `.env` that was created.
+Step 3: Add `NEXT_PUBLIC_MAPGL_KEY=` , `NEXT_PUBLIC_BACKEND_BASE_URL=https://demo-api-endpoint.herokuapp.com/api` inside the `.env.local` that was created.
 
 Step 4: `npm run dev`.
 
 Step 4: Go to `http://localhost:3000`.
 
-You will be redirected to the docs page of the API.
-
-### DEMO API - Running Test
-
-- To run test , type the command `npm test`
-- To run test coverage , type the command `npm run test:coverage`
-
-#### Docs URL
+#### Demo URL
 
 [http://localhost:3000](http://localhost:3000)
 
-#### API Endpoint URL
+#### Hosted Demo URL
 
-[http://localhost:3000/api/](http://localhost:3000/api/)
-
-#### Hosted API endpoint URL
-
-[https://demo-api-endpoint.herokuapp.com/api/](https://demo-api-endpoint.herokuapp.com/API/)
-
-#### Hosted API Docs URL
-
-[https://demo-api-endpoint.herokuapp.com/docs/v1](https://demo-api-endpoint.herokuapp.com/docs/v1)
+[https://demo-fe.vercel.app/](https://demo-fe.vercel.app/)
