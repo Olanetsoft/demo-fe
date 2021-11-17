@@ -1,13 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### DEMO FE - INSTALLATION
 
-## Getting Started
+Step 1: Clone the repository.
 
-First, run the development server:
+Step 2: `cd` into the cloned folder | `cd demo-fe`.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### DEMO FE - Running the project locally
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Step 1: `npm install`.
+
+Step 2: Create`.env.local` file using the command `touch .env.local` in the root folder.
+
+Step 3: Add `API_PORT=3000` inside the `.env` that was created.
+
+Step 4: `npm run dev`.
+
+Step 4: Go to `http://localhost:3000`.
+
+You will be redirected to the docs page of the API.
+
+### DEMO API - Running Test
+
+- To run test , type the command `npm test`
+- To run test coverage , type the command `npm run test:coverage`
+
+#### Docs URL
+
+[http://localhost:3000](http://localhost:3000)
+
+#### API Endpoint URL
+
+[http://localhost:3000/api/](http://localhost:3000/api/)
+
+#### Hosted API endpoint URL
+
+[https://demo-api-endpoint.herokuapp.com/api/](https://demo-api-endpoint.herokuapp.com/API/)
+
+#### Hosted API Docs URL
+
+[https://demo-api-endpoint.herokuapp.com/docs/v1](https://demo-api-endpoint.herokuapp.com/docs/v1)
